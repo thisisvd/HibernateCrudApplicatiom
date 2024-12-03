@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <servlet-class>com.servlet.SaveNoteServlet</servlet-class>
+  </servlet>
+
+  <!-- Servlet Mapping -->
+  <servlet-mapping>
+    <servlet-name>SaveNoteServlet</servlet-name>
+    <url-pattern>/SaveNoteServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

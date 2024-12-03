@@ -23,6 +23,6 @@
 
         <!--We have to map entity classes here using class if we are using annotations-->
         <!--If we are using xml classes for entity then use resource instead of class-->
-        <mapping class="entity.Note" />
+        <mapping class="com.entity.Note" />
     </session-factory>
 </hibernate-configuration>
